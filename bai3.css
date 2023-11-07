@@ -1,0 +1,167 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.boxchat{
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    padding: 3px;
+    border: 1px solid #DDDDDD;
+    border-radius: 10px;
+}
+
+.chat_header{
+    border-bottom: 1px solid #DDDDDD;
+    padding: 10px;
+}
+
+.avatar, .username{
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+}
+
+.avatar{
+    color:  #FFFF;
+    background: #FE5DA3;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 50px;
+    line-height: 32px;
+}
+
+.user_name{
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.lover, .me{
+    display:block;
+    width: 200px;
+    font-size: 12.9px;
+    margin: 5px 5px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    line-height: 1.4;
+    font-weight: 540;
+}
+
+.lover{
+    float: left;
+    background: #F1F1F1;
+}
+
+.me{
+    float: right;
+    background: #FE5DA3;
+    color: #FFFFFF;
+}
+
+.send_message{
+    margin-top: 10px;
+    width: 260px;
+    border-top: 1px solid #DDDDDD;
+    padding: 10px;
+}
+
+.typing, .send{
+    display: inline-block;
+    height: 25px;
+    border-radius: 15px;
+}
+
+.typing{
+    padding-left: 10px;
+    width: 190px;
+    border: 1px solid #DDDDDD;
+}
+
+.send{
+    padding: 0 12px;
+    border: #FE5DA3;
+    background: #FE5DA3;
+    color: #FFFFFF;;
+}
+
+.list_products{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.product{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 120px;
+    padding: 10px;
+    border: 1px solid #DDDDDD;
+    margin: 10px;
+}
+
+.product img{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    top: 5%;
+}
+
+.title{
+    position: absolute;
+    font-size: 14px;
+    height: 14px;
+    text-align: center;
+    top: 90px;
+}
+
+.list_device{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.device{
+    display: inline-block;
+    width: 250px;
+    height: 375px;
+    padding: 5px;
+    border: 1px solid #DDDDDD;
+    margin: 10px;
+}
+
+.device img{
+    width: 250px;
+    height: 250px;
+    object-fit:cover;
+}
+
+.device h3, p{
+    margin:10px;
+}
+
+.device h3{
+    height: 21px;
+}
+
+.device p{
+    height: 18px;
+}
+
+.device_cost1{
+    color: #008000;
+}
+
+.device_cost2{
+    color: #FF0000;
+    text-decoration:line-through;
+}
+
+.sale{
+    color: #800090;
+}
